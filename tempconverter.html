@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Additional Pracitice #1</title>
+  <script>
+           // Temperature Converter Program
+           let tempFahrenheit = 75;
+
+// Convert Fahrenheit to Celsius
+let tempCelsius = (tempFahrenheit - 32) * 5/9;
+console.log(`Temperature in Celsius: ${tempCelsius.toFixed(2)}°C`);
+
+// Convert Celsius to Kelvin
+let tempKelvin = tempCelsius + 273.15;
+console.log(`Temperature in Kelvin: ${tempKelvin.toFixed(2)}K`);
+
+// Create today's forecast string
+let todaysForecast = `The current temperature outside is ${tempFahrenheit}°F, ${tempCelsius.toFixed(2)}°C, and ${tempKelvin.toFixed(2)}K.`;
+console.log(todaysForecast);
+
+// Try changing the value of tempFahrenheit
+tempFahrenheit = 90;
+
+// Recalculate and print the updated values
+tempCelsius = (tempFahrenheit - 32) * 5/9;
+tempKelvin = tempCelsius + 273.15;
+todaysForecast = `The current temperature outside is ${tempFahrenheit}°F, ${tempCelsius.toFixed(2)}°C, and ${tempKelvin.toFixed(2)}K.`;
+console.log(todaysForecast);
+
+// Try assigning tempFahrenheit a string value
+tempFahrenheit = "83";
+
+// Check the data types of tempCelsius and tempKelvin
+console.log(`Data type of tempCelsius: ${typeof tempCelsius}`);
+console.log(`Data type of tempKelvin: ${typeof tempKelvin}`);
+
+// Try assigning tempFahrenheit a negative value
+tempFahrenheit = -10;
+
+// Recalculate and print the values with the negative temperature
+tempCelsius = (tempFahrenheit - 32) * 5/9;
+tempKelvin = tempCelsius + 273.15;
+todaysForecast = `The current temperature outside is ${tempFahrenheit}°F, ${tempCelsius.toFixed(2)}°C, and ${tempKelvin.toFixed(2)}K.`;
+console.log(todaysForecast);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
