@@ -2,6 +2,8 @@
 
 Frontend Wev Dev with JavaScript - additional practice Pt. 1
 
+link: https://docs.google.com/document/d/1ss_XPmTsZPmPm5cJ3jkW9DNfFrFhbvCmSnBlmWDbJ-M/edit#heading=h.6kvylad374c
+
 Frontend Web Dev with JavaScript
 Additional Practice
 This document provides additional practice on the following objectives:
